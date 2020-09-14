@@ -1,0 +1,27 @@
+img {
+    width: 20%;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 6px 6px 5px black;
+    transition: box-shadow 0.4s;
+}
+
+body {
+    background: radial-gradient(rgba(200,35,51,1), rgba(114,65,164,1));
+}
+
+img:active{
+    box-shadow: 0 0 6px black;
+    transform: scale(0.9);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 1px 1px 2px #C82333;
+}
+
+h2, h4 {
+    font-family: 'Syne', sans-serif;
+}
